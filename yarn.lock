@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@acco/decode@0.1.41":
+"@acco/decode@^0.1.41":
   version "0.1.41"
   resolved "https://registry.yarnpkg.com/@acco/decode/-/decode-0.1.41.tgz#582360b42ac7c5cc6e13b3095788bac8f326fb86"
   integrity sha512-BRo6fISpBCzdudRWvSD0tfFEON+Y3UChL/z0Usd/lHXNGQyz9mmiEG4LoW3wRklmEV+471v/0UmYoaO54GVczw==
@@ -11047,9 +11047,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3, whatwg-encoding@^1.0.5:
   version "1.0.5"
