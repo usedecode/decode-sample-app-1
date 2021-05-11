@@ -2,10 +2,13 @@
 # yarn lockfile v1
 
 
-"@acco/decode@0.1.41":
-  version "0.1.41"
-  resolved "https://registry.yarnpkg.com/@acco/decode/-/decode-0.1.41.tgz#582360b42ac7c5cc6e13b3095788bac8f326fb86"
-  integrity sha512-BRo6fISpBCzdudRWvSD0tfFEON+Y3UChL/z0Usd/lHXNGQyz9mmiEG4LoW3wRklmEV+471v/0UmYoaO54GVczw==
+"@acco/decode@^0.1.41":
+  version "0.1.44"
+  resolved "https://registry.yarnpkg.com/@acco/decode/-/decode-0.1.44.tgz#480db3942d31fdd4b28d42c399f55816ec493727"
+  integrity sha512-uJZZNTqSZK8PBLPtS2Sp8SpmEicctnRsjfiA6IZ4v0A9qFY/VcZZVkgnbPTmNr66+HbZbWx0L0ZyQJUnoIdxHQ==
+  dependencies:
+    jshashes h2non/jshashes
+    swr "^0.2.2"
 
 "@ant-design/colors@^3.1.0":
   version "3.2.2"
@@ -5125,9 +5128,9 @@ hoist-non-react-statics@^3.3.2:
     react-is "^16.7.0"
 
 hosted-git-info@^2.1.4:
-  version "2.8.8"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
-  integrity sha512-f/wzC2QaWBs7t9IYqB4T3sR1xviIViXJRJTWBlx2Gf3g0Xi5vI7Yy4koXQ1c9OYDGHN9sBy1DQ2AB8fqZBWhUg==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 hpack.js@^2.1.6:
   version "2.1.6"
@@ -6363,6 +6366,11 @@ jsesc@~0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
   integrity sha1-597mbjXW/Bb3EP6R1c9p9w8IkR0=
+
+jshashes@h2non/jshashes:
+  version "1.0.8"
+  uid "34c103e779d4cb6423b2a587b1b7fe98a5cf75d7"
+  resolved "https://codeload.github.com/h2non/jshashes/tar.gz/34c103e779d4cb6423b2a587b1b7fe98a5cf75d7"
 
 json-parse-better-errors@^1.0.1, json-parse-better-errors@^1.0.2:
   version "1.0.2"
