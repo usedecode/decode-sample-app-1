@@ -2,10 +2,13 @@
 # yarn lockfile v1
 
 
-"@acco/decode@0.1.41":
-  version "0.1.41"
-  resolved "https://registry.yarnpkg.com/@acco/decode/-/decode-0.1.41.tgz#582360b42ac7c5cc6e13b3095788bac8f326fb86"
-  integrity sha512-BRo6fISpBCzdudRWvSD0tfFEON+Y3UChL/z0Usd/lHXNGQyz9mmiEG4LoW3wRklmEV+471v/0UmYoaO54GVczw==
+"@acco/decode@^0.1.41":
+  version "0.1.44"
+  resolved "https://registry.yarnpkg.com/@acco/decode/-/decode-0.1.44.tgz#480db3942d31fdd4b28d42c399f55816ec493727"
+  integrity sha512-uJZZNTqSZK8PBLPtS2Sp8SpmEicctnRsjfiA6IZ4v0A9qFY/VcZZVkgnbPTmNr66+HbZbWx0L0ZyQJUnoIdxHQ==
+  dependencies:
+    jshashes h2non/jshashes
+    swr "^0.2.2"
 
 "@ant-design/colors@^3.1.0":
   version "3.2.2"
@@ -6364,6 +6367,11 @@ jsesc@~0.5.0:
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
   integrity sha1-597mbjXW/Bb3EP6R1c9p9w8IkR0=
 
+jshashes@h2non/jshashes:
+  version "1.0.8"
+  uid "34c103e779d4cb6423b2a587b1b7fe98a5cf75d7"
+  resolved "https://codeload.github.com/h2non/jshashes/tar.gz/34c103e779d4cb6423b2a587b1b7fe98a5cf75d7"
+
 json-parse-better-errors@^1.0.1, json-parse-better-errors@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
@@ -6779,9 +6787,9 @@ memory-fs@^0.5.0:
     readable-stream "^2.0.1"
 
 merge-deep@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/merge-deep/-/merge-deep-3.0.2.tgz#f39fa100a4f1bd34ff29f7d2bf4508fbb8d83ad2"
-  integrity sha512-T7qC8kg4Zoti1cFd8Cr0M+qaZfOwjlPDEdZIIPPB2JZctjaPM4fX+i7HOId69tAti2fvO6X5ldfYUONDODsrkA==
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/merge-deep/-/merge-deep-3.0.3.tgz#1a2b2ae926da8b2ae93a0ac15d90cd1922766003"
+  integrity sha512-qtmzAS6t6grwEkNrunqTBdn0qKwFgNWvlxUbAV8es9M7Ot1EbyApytCnvE0jALPa46ZpKDUo527kKiaWplmlFA==
   dependencies:
     arr-union "^3.1.0"
     clone-deep "^0.2.4"
